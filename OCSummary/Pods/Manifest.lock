@@ -26,6 +26,9 @@ PODS:
   - IQKeyboardManager (6.5.5)
   - Masonry (1.1.0)
   - MJRefresh (3.1.15.7)
+  - Realm (5.3.1):
+    - Realm/Headers (= 5.3.1)
+  - Realm/Headers (5.3.1)
   - SDWebImage (5.8.3):
     - SDWebImage/Core (= 5.8.3)
   - SDWebImage/Core (5.8.3)
@@ -55,6 +58,7 @@ DEPENDENCIES:
   - IQKeyboardManager
   - Masonry
   - MJRefresh
+  - Realm (= 5.3.1)
   - SDWebImage (~> 5.0)
   - YYAsyncLayer
   - YYCache
@@ -77,6 +81,7 @@ SPEC REPOS:
     - IQKeyboardManager
     - Masonry
     - MJRefresh
+    - Realm
     - SDWebImage
     - YYAsyncLayer
     - YYCache
@@ -98,6 +103,7 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 3a8b9e603f8b0eeaf5f096a1f2b2cfcf121992ef
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MJRefresh: 697f8ec75ebdbe9207767bb682cf0f51b0d8a41f
+  Realm: 8ec860dc0c3079f7cab1085d95661a06f162d487
   SDWebImage: 112503ec94a5a2a41869503844a15e8d8f1ead5c
   YYAsyncLayer: df6b01ebc695c5f6b4c15dd5c23fa3e081eb25c0
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
@@ -109,6 +115,6 @@ SPEC CHECKSUMS:
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
   YYWebImage: 5f7f36aee2ae293f016d418c7d6ba05c4863e928
 
-PODFILE CHECKSUM: dc506f2098ee46f44caaed73ce6d112609d0e6b7
+PODFILE CHECKSUM: 28efa538c6f33fded155265476b4e26bf6ae2178
 
 COCOAPODS: 1.9.1
