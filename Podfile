@@ -27,6 +27,8 @@ target 'OCSummary' do
   pod 'MJRefresh'
   pod 'Realm', '5.3.1'
   pod 'IQKeyboardManager' #iOS8 and later
- 
+  pod 'RSKImageCropper', '2.2.3'
+
+
 
 end
