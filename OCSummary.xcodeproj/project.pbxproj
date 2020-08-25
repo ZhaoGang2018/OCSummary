@@ -17,6 +17,7 @@
 		C608CF8E24BC0D1A00C55709 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C608CF8D24BC0D1A00C55709 /* main.m */; };
 		C608CF9824BC0D1A00C55709 /* OCSummaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C608CF9724BC0D1A00C55709 /* OCSummaryTests.m */; };
 		C608CFA324BC0D1A00C55709 /* OCSummaryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C608CFA224BC0D1A00C55709 /* OCSummaryUITests.m */; };
+		C681EE7224F4F98300270527 /* TKImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C681EE7124F4F98300270527 /* TKImageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,8 @@
 		C608CF9E24BC0D1A00C55709 /* OCSummaryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCSummaryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C608CFA224BC0D1A00C55709 /* OCSummaryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCSummaryUITests.m; sourceTree = "<group>"; };
 		C608CFA424BC0D1A00C55709 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C681EE7024F4F98300270527 /* TKImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TKImageView.h; sourceTree = "<group>"; };
+		C681EE7124F4F98300270527 /* TKImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TKImageView.m; sourceTree = "<group>"; };
 		EDBD5284536AB59FA7D78E7B /* Pods-OCSummary.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCSummary.release.xcconfig"; path = "Target Support Files/Pods-OCSummary/Pods-OCSummary.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -139,6 +142,7 @@
 				C608CF8924BC0D1A00C55709 /* LaunchScreen.storyboard */,
 				C608CF8C24BC0D1A00C55709 /* Info.plist */,
 				C608CF8D24BC0D1A00C55709 /* main.m */,
+				C681EE6E24F4F98300270527 /* Vendor */,
 			);
 			path = OCSummary;
 			sourceTree = "<group>";
@@ -159,6 +163,23 @@
 				C608CFA424BC0D1A00C55709 /* Info.plist */,
 			);
 			path = OCSummaryUITests;
+			sourceTree = "<group>";
+		};
+		C681EE6E24F4F98300270527 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C681EE6F24F4F98300270527 /* TKImageView */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		C681EE6F24F4F98300270527 /* TKImageView */ = {
+			isa = PBXGroup;
+			children = (
+				C681EE7024F4F98300270527 /* TKImageView.h */,
+				C681EE7124F4F98300270527 /* TKImageView.m */,
+			);
+			path = TKImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -339,6 +360,7 @@
 				C608CF7D24BC0D1900C55709 /* AppDelegate.m in Sources */,
 				C608CF8E24BC0D1A00C55709 /* main.m in Sources */,
 				C608CF8024BC0D1900C55709 /* SceneDelegate.m in Sources */,
+				C681EE7224F4F98300270527 /* TKImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
